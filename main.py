@@ -2,8 +2,7 @@ import sys
 import asyncio 
 import time
 import discord
-from discord.ext.commands import Bot
-from discord.ext import commands
+import gspread
 import os
 import json
 
