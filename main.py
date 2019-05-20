@@ -2,6 +2,9 @@ import sys
 import asyncio 
 import time
 import discord
+from discord.ext.commands import Bot
+from discord.ext import commands
+import os
 import json
 import gspread
 import help_text
@@ -298,3 +301,4 @@ except(discord.errors.GatewayNotFound, discord.errors.HTTPException):
 except(SystemExit):
     print_log("Press enter to exit...")
     input()
+client.run(os.getenv('TOKEN'))
