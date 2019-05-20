@@ -1,1 +1,1 @@
-worker: python splitbotv4.py
+worker: python main.py
