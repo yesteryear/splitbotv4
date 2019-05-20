@@ -6,7 +6,7 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import os
 import json
-import gspread
+
 import help_text
 from doc_scan import DocScanner
 from datetime import datetime
